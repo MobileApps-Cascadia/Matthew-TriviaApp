@@ -1,0 +1,251 @@
+/** background of main page **/
+#main {
+	background: #fceabb; /* Old browsers */
+	background: -moz-linear-gradient(top, #fceabb 0%, #f8b500 18%, #f8b500 18%, #fccd4d 40%, #fccd4d 60%, #f8b500 87%, #fbdf93 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fceabb), color-stop(18%,#f8b500), color-stop(18%,#f8b500), color-stop(40%,#fccd4d), color-stop(60%,#fccd4d), color-stop(87%,#f8b500), color-stop(100%,#fbdf93)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #fceabb 0%,#f8b500 18%,#f8b500 18%,#fccd4d 40%,#fccd4d 60%,#f8b500 87%,#fbdf93 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #fceabb 0%,#f8b500 18%,#f8b500 18%,#fccd4d 40%,#fccd4d 60%,#f8b500 87%,#fbdf93 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #fceabb 0%,#f8b500 18%,#f8b500 18%,#fccd4d 40%,#fccd4d 60%,#f8b500 87%,#fbdf93 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #fceabb 0%,#f8b500 18%,#f8b500 18%,#fccd4d 40%,#fccd4d 60%,#f8b500 87%,#fbdf93 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93',GradientType=0 ); /* IE6-9 */
+}
+
+/** main page header **/
+#header1 {
+	background:url(pictures/logo1.png); /* http://upload.wikimedia.org/wikipedia/commons/d/da/Trivia_1.png */
+	background-repeat:no-repeat;
+	width:322px;
+	height:165px;
+	text-indent:-999px;
+	font-size:0px;
+	margin:5px auto 0 auto;	
+}
+
+.login-form,
+.login-form h3,
+.login-form span,
+.login-form input,
+.login-form label {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+.login-form {
+	position:relative;
+	width:300px;
+
+	padding: 15px;
+	margin-top: 15%;
+	margin-bottom: 15px;
+	margin-left:auto;
+	margin-right:auto;
+	cursor: default;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 1px 1px 0px rgba(255,255,255, .2), inset 0px 1px 1px 0px rgb(0,0,0);
+	-moz-box-shadow: 0px 1px 1px 0px rgba(255,255,255, .2), inset 0px 1px 1px 0px rgb(0,0,0);
+	box-shadow: 0px 1px 1px 0px rgba(255,255,255, .2), inset 0px 1px 1px 0px rgb(0,0,0);
+}
+
+.login-form h3 {
+	text-align:center;
+}
+
+/* Form Input General Styles */
+.login-form input[type=text],
+.login-form input[type=password],
+.login-form input[type=submit] {
+	line-height: 14px;
+	margin: 10px 0;
+	padding: 6px 15px;
+	border: 0;
+	outline: none;
+	
+	margin-left:auto;
+	margin-right:auto;
+
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-shadow: 0px 1px 1px rgba(255,255,255, .2);
+
+	-webkit-border-radius: 26px;
+	-moz-border-radius: 26px;
+	border-radius: 26px;
+
+	-webkit-transition: all .15s ease-in-out;
+	-moz-transition: all .15s ease-in-out;
+	-o-transition: all .15s ease-in-out;
+	transition: all .15s ease-in-out;
+}
+
+.login-form input[type=text],
+.login-form input[type=password],
+.js .login-form span {
+    color: #686868;
+    width: 170px;
+ 
+    -webkit-box-shadow: inset 1px 1px 1px 0px rgba(255,255,255, .6);
+    -moz-box-shadow: inset 1px 1px 1px 0px rgba(255,255,255, .6);
+    box-shadow: inset 1px 1px 1px 0px rgba(255,255,255, .6);
+ 
+    background: #989898;
+    background: -moz-linear-gradient(top,  #ffffff 0%, #989898 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#989898));
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#989898 100%);
+    background: -o-linear-gradient(top,  #ffffff 0%,#989898 100%);
+    background: -ms-linear-gradient(top,  #ffffff 0%,#989898 100%);
+    background: linear-gradient(top,  #ffffff 0%,#989898 100%);
+}
+
+.login-form input[type=text]:hover,
+.login-form input[type=password]:hover {
+    -webkit-box-shadow: inset 1px 1px 1px 0px rgba(255,255,255, .6), 0px 0px 5px rgba(255,255,255, .5);
+    -moz-box-shadow: inset 1px 1px 1px 0px rgba(255,255,255, .6), 0px 0px 5px rgba(255,255,255, .5);
+    box-shadow: inset 1px 1px 1px 0px rgba(255,255,255, .6), 0px 0px 5px rgba(255,255,255, .5);
+}
+
+.login-form input[type=text]:focus,
+.login-form input[type=password]:focus {
+    background: #e1e1e1;
+    background: -moz-linear-gradient(top,  #ffffff 0%, #e1e1e1 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e1e1e1));
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#e1e1e1 100%);
+    background: -o-linear-gradient(top,  #ffffff 0%,#e1e1e1 100%);
+    background: -ms-linear-gradient(top,  #ffffff 0%,#e1e1e1 100%);
+    background: linear-gradient(top,  #ffffff 0%,#e1e1e1 100%);
+}
+
+.ui-btn input {
+	z-index:-1;
+}
+
+/* facebook icon */
+.ui-icon-facebook-icon {
+	background-image: url(picture/fbicon.PNG);
+}
+
+
+/* END MAIN PAGE CSS */
+/* *************************** */
+
+/* index page css styling */
+
+.record-bar {
+	position:fixed;
+	width:100%;
+	border-style:outset;
+	border-width:5px;
+}
+
+#ui-wins {
+	padding-left:20%;
+}
+
+#ui-loss {
+	float:right;
+	padding-right:20%;
+}
+
+#button-panel-a {
+	width:80%;
+	height:200px;
+	margin-top:5%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:0px;
+	padding-bottom:0px;
+	/*box-shadow: 10px 10px 5px #888888; /* to see div boundaries */
+}
+
+#button-container-a {
+	margin:0px;
+	height:240px;
+	text-align:center;
+}
+
+#button-container-a div {
+	height:150px;
+	
+}
+
+.ui-btn-hidden {
+	text-indent:0px;
+	opacity:1.0;
+}
+
+[type="button"]{
+		text-align:center;
+	
+}
+
+#button-panel-b {
+	margin-top:auto;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:0px;
+}
+
+#button-container-c {
+	text-align:center;
+}
+
+#button-container-c div {
+	height:150px;
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0;
+}
+
+/* END INDEX PAGE CSS STYLING */
+/* *************************************** */
+
+/* game page CSS styling */
+
+.player-bar {
+	height:150px;
+	width:100%;
+	border:solid 1px black;
+	margin-top:5%;
+	box-shadow: 10px 10px 5px #888888; /* to see div boundaries */
+}
+
+.player-bar #my-img {
+	width:48%;
+	height:auto;
+}
+
+.player-bar #opp-img {
+	width:48%;
+	heigh:auto;
+}
+
+#question-container {
+	
+	height: 300px;
+	
+	margin-top:10px;
+	
+	background-color:#f7dd1d;
+	border: solid 1px black;
+	
+	
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+#question-container #question {
+	text-align:center;
+	margin-bottom:40px;
+}
+
+#question-container #current-topic {
+	text-align:center;
+	margin-top:10px;
+}

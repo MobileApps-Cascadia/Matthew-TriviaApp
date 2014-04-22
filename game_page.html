@@ -1,0 +1,54 @@
+<!doctype HTML>
+<html>
+	<head>
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+		<link rel="stylesheet" href="app_style.css" />
+		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+		<meta charset = "utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+		<title> Game Page </title>
+	</head>
+	<body>
+		<div data-role="page" id="main">
+			<div data-role="header" class="record-bar">
+				<span id="ui-wins"> #wins </span>
+				<span id="ui-loss"> #losses </span>
+			</div>
+			
+			<!-- pictures will not size correctly -->
+			<div class="player-bar ui-grid-a">
+				<img class="ui-grid-a" src="pictures\knowledgeladderplayer1.jpg" id="my-img"/>
+				<img class="ui-grid-b" src="pictures\knowledgeladderplayer2.jpg" id="opp-image"/>
+				
+			</div>
+			
+			<div data-role="content" class="ui-grid-solo" id="question-container">
+				<div id="question"> <p> This is where the question will be stated </p></div>
+				<div class="ui-block-a"><button type="button" data-theme="e" id="answer-a"> ANSWER #A </button></div>
+				<div class="ui-block-a"><button type="button" data-theme="a" id="answer-b"> ANSWER #B </button></div>
+				<div class="ui-block-a"><button type="button" data-theme="e" id="answer-c"> ANSWER #C </button></div>
+				<div class="ui-block-a"><button type="button" data-theme="e" id="answer-d"> ANSWER #D </button></div>
+				<div id="current-topic"> <b> the current topic is: <i> some topic </i> </b> </div> 
+			</div>
+			
+			<div data-role="content" class="ui-grid-c" id="topic-container">
+				<div class="ui-block-a"><button type="button" data-theme="b"> animals </button></div>
+				<div class="ui-block-b"><button type="button" data-theme="a" > arts </button></div>
+				<div class="ui-block-c"><button type="button" data-theme="b" > computers </button></div>
+				<div class="ui-block-d"><button type="button" data-theme="b" > sports </button></div>
+				<div class="ui-block-a"><button type="button" data-theme="b"> pop culture </button></div>
+				<div class="ui-block-b"><button type="button" data-theme="b"> geography </button></div>
+				<div class="ui-block-c"><button type="button" data-theme="b" > science </button></div>
+				<div class="ui-block-d"><button type="button" data-theme="b" > history </button></div>
+			</div>
+			
+			<div data-role="footer" class="ui-grid-solo" id="button-panel-b">
+				<div class="ui-block-a"><button type="button" data-theme="a" >
+					quit </button></div>
+			</div>
+			
+		</div>
+	</body>
+</html>	

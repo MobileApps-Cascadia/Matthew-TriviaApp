@@ -1,0 +1,52 @@
+<!doctype HTML>
+<html>
+	<head>
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+		<link rel="stylesheet" href="app_style.css" />
+		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+		<script src="appProtoScripts.js" ></script>
+		<meta charset = "utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+		<title> Trivia With Friends </title>
+	</head>
+	<body>
+		<div data-role="page" id="main">
+			<div data-role="header" class="record-bar">
+				<span id="ui-wins"> #wins </span>
+				<span id="ui-loss"> #losses </span>
+			</div>
+			
+			<div data-role="content" class="ui-grid-a" id="button-panel-a">
+				<div class="ui-block-a" id="button-container-a">Play With A Friend <button type="button" data-theme="e" onclick="location.href='game_page.html'">
+					<img src="pictures/Books-icon.png" />
+				</button></div>
+				
+				<div class="ui-block-b" id="button-container-a">Find A Match<button type="button" data-theme="e" onclick="location.href='game_page.html'">
+					<img src="pictures/books-icon-grp.png" />
+				</button></div>
+			</div>
+			
+			<div data-role="content" class="ui-grid-solo" id="button-panel-b">
+				<div class="ui-block-a"><button type="button" data-theme="b" data-icon="star" id="leader-board">Leader Board
+					<span class="ui-icon ui-icon-star ui-icon-shadow" style="float:right;">&nbsp;</span></button></div>
+				<div class="ui-block-a"><button type="button" data-theme="b" data-icon="person" id="friend-button">Invite Friends
+					<span class="ui-icon ui-icon-person ui-icon-shadow" style="float:right;">&nbsp;</span></button></div>
+				<div class="ui-block-a"><button type="button" data-theme="b" data-icon="cart" id="new-topics-button">Unlock New Topics
+					<span class="ui-icon ui-icon-cart ui-icon-shadow" style="float:right;">&nbsp;</span></button></div>
+			</div>
+			
+			<div data-role="content" class="ui-grid-solo" id="button-panel-b">
+				<div class="ui-block-a" id="button-container-c">Pick Your Topics<button type="button" data-theme="e">
+					<img src="pictures/light-bulb.jpg" />
+				</button></div>
+			</div>
+			
+			<div data-role="content" class="ui-grid-solo" id="button-panel-b">
+				<div class="ui-block-a"><button type="button" data-theme="a"> sign out </button></div>
+			</div>
+		</div>
+	</body>
+</html>
+
